@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MoVies</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <h1>{{ search }}</h1>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" #searchinput>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="onSearchClick(searchinput.value)">Search</button>
+        </form>
+      </li>
+    </ul>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01" [ngSwitch]="logintype">
+      <div *ngSwitchCase="'home'">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="/Register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="/Login">Login</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-auto" *ngSwitchCase="'customer'">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="">Address</a>
+          </li>
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class=" nav-link " (click)="onlogout()" style="cursor: pointer; float: right;">Log out</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ml-auto" *ngSwitchCase="'admin'">
+        <ul class="navbar-nav mt-2 mt-lg-0 ">
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class=" nav-link" routerLink="">Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onlogout()" style="cursor: pointer;">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</nav>
