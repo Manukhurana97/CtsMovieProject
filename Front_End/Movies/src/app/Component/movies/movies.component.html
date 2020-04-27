@@ -1,0 +1,16 @@
+<div style="padding: 10px; margin: 0px 0px 0px 90px;">
+  <div class="row">
+    <div class="card" style="width: 16rem; margin: 15px;" *ngFor="let data of movie">
+      <button  (click)= "getName(data.name, data.id)">
+        <div style="height: 280px;"><br>
+          <img class="card-img-top" [routerLink]="['/']" src="" alt="Card image cap" width="50" height="250">
+
+        </div>
+        <div class="card-body">
+          <h2 style="text-align: center;" class="card-title">{{data.name}}<small>{{data.language}}</small></h2>
+
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
