@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="821c14a5-ea2e-4612-afa8-bc656d1b10ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Controller/AddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/AddressDaoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/CartDaoRepositry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/CartListRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/DaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/DaoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Dao/UserDaoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/CartItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Response/CartResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Response/addressResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Response/serverResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Response/userResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/movie_data/Util.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b01FnqOjARwb80oWalcL0Saa17" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.movie_data.Model" />
+      <recent name="com.example.movie_data" />
+      <recent name="com.example.movie_data.Response" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MovieDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Movie_data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.movie_data.MovieDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="821c14a5-ea2e-4612-afa8-bc656d1b10ba" name="Default Changelist" comment="" />
+      <created>1587754095682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587754095682</updated>
+      <workItem from="1587754098316" duration="700000" />
+      <workItem from="1587754871288" duration="6339000" />
+      <workItem from="1587762687086" duration="1505000" />
+      <workItem from="1587793066445" duration="12656000" />
+      <workItem from="1587879447084" duration="6635000" />
+      <workItem from="1587903451417" duration="11304000" />
+      <workItem from="1587962821361" duration="55082000" />
+      <workItem from="1588138021065" duration="11328000" />
+      <workItem from="1588178132327" duration="2623000" />
+      <workItem from="1588186216752" duration="352000" />
+      <workItem from="1588186772987" duration="1761000" />
+      <workItem from="1588221838455" duration="4071000" />
+      <workItem from="1588323693367" duration="547000" />
+      <workItem from="1588397893585" duration="702000" />
+      <workItem from="1588398884702" duration="1680000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1588142698396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588142698396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="104" key="#Assign_Data_Sources" timestamp="1587991350444">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="320" y="104" key="#Assign_Data_Sources/0.23.1440.832@0.23.1440.832" timestamp="1587991350444" />
+    <state x="533" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1588090338559">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="533" y="155" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1588090338559" />
+    <state x="112" y="135" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587758026079">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="112" y="135" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.832@0.23.1440.832" timestamp="1587758026079" />
+    <state x="462" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588234323370">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="462" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.832@0.23.1440.832" timestamp="1588234323370" />
+    <state x="483" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587762718108">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="483" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.832@0.23.1440.832" timestamp="1587762718108" />
+    <state x="13" y="41" key="CommitChangelistDialog2" timestamp="1588142697881">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="13" y="41" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1588142697881" />
+    <state x="591" y="339" key="Github.ShareDialog" timestamp="1588093997660">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="591" y="339" key="Github.ShareDialog/0.23.1440.832@0.23.1440.832" timestamp="1588093997660" />
+    <state x="471" y="152" key="Github.UntrackedFilesDialog" timestamp="1588094005863">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="471" y="152" key="Github.UntrackedFilesDialog/0.23.1440.832@0.23.1440.832" timestamp="1588094005863" />
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom" timestamp="1588398859291">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1588398859291" />
+    <state width="1398" height="251" key="GridCell.Tab.0.center" timestamp="1588398859290">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1588398859290" />
+    <state width="1398" height="251" key="GridCell.Tab.0.left" timestamp="1588398859290">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1588398859290" />
+    <state width="1398" height="251" key="GridCell.Tab.0.right" timestamp="1588398859290">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1588398859290" />
+    <state width="1398" height="251" key="GridCell.Tab.1.bottom" timestamp="1588398859293">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1588398859293" />
+    <state width="1398" height="251" key="GridCell.Tab.1.center" timestamp="1588398859292">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1588398859292" />
+    <state width="1398" height="251" key="GridCell.Tab.1.left" timestamp="1588398859291">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1588398859291" />
+    <state width="1398" height="251" key="GridCell.Tab.1.right" timestamp="1588398859292">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="251" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1588398859292" />
+    <state x="386" y="179" key="Maven.ArtifactSearchDialog" timestamp="1587762896549">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="386" y="179" key="Maven.ArtifactSearchDialog/0.23.1440.832@0.23.1440.832" timestamp="1587762896549" />
+    <state x="208" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1588093976941">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="208" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1588093976941" />
+    <state x="12" y="179" key="Vcs.Push.Dialog.v2" timestamp="1588142704415">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="12" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1588142704415" />
+    <state x="828" y="23" width="642" height="831" key="dock-window-1" timestamp="1588098663732">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="828" y="23" width="642" height="831" key="dock-window-1/0.23.1440.832@0.23.1440.832" timestamp="1588098663732" />
+    <state x="329" y="164" width="782" height="550" key="find.popup" timestamp="1587984589191">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="329" y="164" width="782" height="550" key="find.popup/0.23.1440.832@0.23.1440.832" timestamp="1587984589191" />
+    <state x="149" y="143" key="new project wizard" timestamp="1588143795186">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="149" y="143" key="new project wizard/0.23.1440.832@0.23.1440.832" timestamp="1588143795186" />
+    <state x="428" y="62" key="refactoring.ChangeSignatureDialog" timestamp="1587839444994">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="428" y="62" key="refactoring.ChangeSignatureDialog/0.23.1440.832@0.23.1440.832" timestamp="1587839444994" />
+  </component>
+</project>
