@@ -10,7 +10,7 @@ import java.util.Optional;
 @Repository
 public interface DaoRepository extends JpaRepository<Movie, Integer> {
 
-    List<Movie> findMovieByNameAndId(String name, int id);
+    List<Movie> findMovieByNameAndMovieid(String name, int id);
     List<Movie> findMovieByName(String name);
 
 }

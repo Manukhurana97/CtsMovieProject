@@ -4,9 +4,11 @@ import com.example.movie_data.Dao.DaoRepository;
 import com.example.movie_data.Model.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 @org.springframework.stereotype.Service
 public class ServiceImpl implements Service {
 
@@ -37,7 +39,7 @@ public class ServiceImpl implements Service {
 
     @Override
     public List<Movie> find_by_Nameandid(String Name, int id) {
-        return dao.findMovieByNameAndId(Name, id);
+        return dao.findMovieByNameAndMovieid(Name, id);
     }
 
     @Override
