@@ -33,6 +33,8 @@ public class Util {
 
         SignatureAlgorithm algo = SignatureAlgorithm.HS512;
         String br = Jwts.builder().setIssuer(ISSUER).setClaims(map).setSubject(SUBJECT)
+                .setIssuedAt(new Date(System.currentTimeMillis()))
+                .setExpiration(new Date(System.currentTimeMillis()* 1000*60*60*24))
                 .signWith(algo, Key).compact();
         return br;
     }
