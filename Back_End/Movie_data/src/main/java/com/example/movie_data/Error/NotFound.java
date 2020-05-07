@@ -10,8 +10,7 @@ public class NotFound extends RuntimeException {
     }
 
 
-    public String DisplayMgs()
-    {
+    public String DisplayMgs() {
         return mgs;
     }
 }

@@ -5,7 +5,7 @@ import com.example.movie_data.Service.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.naming.Name;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -19,48 +19,42 @@ public class ProductController {
     Movie Mo;
 
     @PostMapping("/Add")
-    public Movie create(@RequestBody Movie movie)
-    {
+    public Movie create(@RequestBody Movie movie) {
 
         return service.create(movie);
     }
 
     @GetMapping("")
-    public List<Movie> find_all()
-    {
+    public List<Movie> find_all() {
         return service.findAll();
     }
 
 
-    @RequestMapping( value = "/{id}",  method = RequestMethod.GET)
-    public Optional<Movie> find_By_id(@PathVariable int id)
-    {
-        return service.find_by_id( id);
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public Optional<Movie> find_By_id(@PathVariable int id) {
+        return service.find_by_id(id);
     }
 
+
     @GetMapping("Search={name}")
-    public List<Movie> find_By_Name(@PathVariable(value = "name") String name )
-    {
+    public List<Movie> find_By_Name(@PathVariable(value = "name") String name) {
         return service.find_by_Name(name);
     }
 
+
     @GetMapping("/{Name}/{id}")
-    public List<Movie> find_By_Nameandid(@PathVariable(value = "Name") String Name, @PathVariable(value = "id") int id)
-    {
+    public List<Movie> find_By_Nameandid(@PathVariable(value = "Name") String Name, @PathVariable(value = "id") int id) {
         return service.find_by_Nameandid(Name, id);
     }
 
 
-
     @PutMapping("/Update")
-    public Movie Update(@RequestBody Movie movie)
-    {
+    public Movie Update(@RequestBody Movie movie) {
         return service.update(movie);
     }
 
-    @DeleteMapping("/Detele/{id}")
-    public void Delete_by_id(@PathVariable(value = "id") int id)
-    {
+    @DeleteMapping("/Delete/{id}")
+    public void Delete_by_id(@PathVariable(value = "id") int id) {
         service.delete(id);
     }
 }
