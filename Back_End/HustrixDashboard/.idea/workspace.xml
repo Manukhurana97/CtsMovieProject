@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7155dd4-aaeb-4efd-8e96-b22d5f4d0a19" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bXD0oeAl2l0H44VA29RWi5r1RT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8085/hystrix" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8085/error" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HustrixdashboardApplication">
+    <configuration name="HustrixdashboardApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/HustrixdashboardApplication.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="HustrixdashboardApplication#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/HustrixdashboardApplication.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="HustrixdashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HustrixDashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hustrixdashboard.HustrixdashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.HustrixdashboardApplication#2" />
+        <item itemvalue="HTTP Request.HustrixdashboardApplication#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7155dd4-aaeb-4efd-8e96-b22d5f4d0a19" name="Default Changelist" comment="" />
+      <created>1588769323455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588769323455</updated>
+      <workItem from="1588769330409" duration="3590000" />
+      <workItem from="1588826318936" duration="2995000" />
+      <workItem from="1588917435564" duration="1013000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1588941368967">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1588941368967" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1588941368966">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1588941368966" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1588941368966">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1588941368966" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1588941368967">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1588941368967" />
+    <state width="1398" height="216" key="GridCell.Tab.1.bottom" timestamp="1588941368968">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1588941368968" />
+    <state width="1398" height="216" key="GridCell.Tab.1.center" timestamp="1588941368968">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1588941368968" />
+    <state width="1398" height="216" key="GridCell.Tab.1.left" timestamp="1588941368967">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1588941368967" />
+    <state width="1398" height="216" key="GridCell.Tab.1.right" timestamp="1588941368968">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1588941368968" />
+    <state x="258" y="101" key="Maven.ArtifactSearchDialog" timestamp="1588769561952">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="258" y="101" key="Maven.ArtifactSearchDialog/0.23.1440.832@0.23.1440.832" timestamp="1588769561952" />
+    <state x="229" y="78" key="SettingsEditor" timestamp="1588769539645">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="229" y="78" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1588769539645" />
+  </component>
+</project>
