@@ -1,0 +1,217 @@
+2020-05-09 13:34:17,840 [INFO] com.example.account.AccountApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-09 13:34:18,441 [WARN] org.springframework.boot.actuate.endpoint.EndpointId [restartedMain] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-05-09 13:34:19,522 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-09 13:34:19,694 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 149ms. Found 6 JPA repository interfaces.
+2020-05-09 13:34:20,037 [WARN] org.springframework.boot.actuate.endpoint.EndpointId [restartedMain] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-09 13:34:20,224 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=cffe2d36-9e6d-3212-8c53-f84c3ab50ec8
+2020-05-09 13:34:20,877 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:34:20,880 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:34:20,884 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:34:21,546 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2020-05-09 13:34:21,555 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-05-09 13:34:21,555 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-09 13:34:21,687 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-05-09 13:34:21,687 [INFO] org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3805 ms
+2020-05-09 13:34:21,964 [WARN] com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-05-09 13:34:21,964 [INFO] com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-09 13:34:21,974 [INFO] com.netflix.config.DynamicPropertyFactory [restartedMain] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@198c9d93
+2020-05-09 13:34:22,108 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-05-09 13:34:22,459 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-05-09 13:34:22,476 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-09 13:34:23,605 [INFO] org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar [restartedMain] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-05-09 13:34:23,852 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-09 13:34:24,108 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-09 13:34:24,616 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-09 13:34:24,951 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-09 13:34:26,912 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-09 13:34:26,929 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-09 13:34:27,038 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-05-09 13:34:28,718 [WARN] com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-05-09 13:34:28,718 [INFO] com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-09 13:34:28,854 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-09 13:34:29,177 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-09 13:34:30,595 [WARN] org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-09 13:34:30,639 [WARN] org.springframework.cloud.client.loadbalancer.reactive.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger [restartedMain] You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-09 13:34:30,716 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-05-09 13:34:30,858 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-05-09 13:34:30,890 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-05-09 13:34:31,191 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-05-09 13:34:31,191 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-05-09 13:34:31,324 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-05-09 13:34:31,324 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-05-09 13:34:31,567 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2020-05-09 13:34:31,585 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-05-09 13:34:32,037 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2020-05-09 13:34:32,039 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-05-09 13:34:32,041 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-09 13:34:32,045 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1589011472044 with initial instances count: 0
+2020-05-09 13:34:32,055 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ACCOUNT with eureka with status UP
+2020-05-09 13:34:32,055 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1589011472055, current=UP, previous=STARTING]
+2020-05-09 13:34:32,057 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001: registering service...
+2020-05-09 13:34:32,115 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-09 13:34:32,117 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8001
+2020-05-09 13:34:32,130 [INFO] com.example.account.AccountApplication [restartedMain] Started AccountApplication in 15.275 seconds (JVM running for 21.985)
+2020-05-09 13:34:32,209 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - registration status: 204
+2020-05-09 13:35:02,042 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-05-09 13:35:02,043 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-05-09 13:35:02,043 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-05-09 13:35:02,043 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-05-09 13:35:02,043 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-05-09 13:35:02,045 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-05-09 13:35:02,045 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-05-09 13:35:02,123 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-05-09 13:35:20,191 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-09 13:35:20,193 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8001-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-05-09 13:35:20,247 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8001-exec-1] Completed initialization in 54 ms
+2020-05-09 13:39:31,646 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-05-09 13:43:16,944 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application ACCOUNT with eureka with status DOWN
+2020-05-09 13:43:16,945 [WARN] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1589011996945, current=DOWN, previous=UP]
+2020-05-09 13:43:16,947 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001: registering service...
+2020-05-09 13:43:16,959 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - registration status: 204
+2020-05-09 13:43:16,998 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-09 13:43:17,019 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-09 13:43:17,045 [ERROR] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:516) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:719) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:705) ~[HikariCP-3.4.2.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+2020-05-09 13:43:17,243 [WARN] org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-05-09 13:43:17,246 [INFO] com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-05-09 13:43:17,301 [INFO] com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-05-09 13:43:17,304 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2020-05-09 13:43:20,313 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2020-05-09 13:43:20,325 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - deregister  status: 200
+2020-05-09 13:43:20,339 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
+2020-05-09 13:43:33,846 [INFO] com.example.account.AccountApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-09 13:43:34,423 [WARN] org.springframework.boot.actuate.endpoint.EndpointId [restartedMain] Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-05-09 13:43:35,477 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-09 13:43:35,616 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 120ms. Found 6 JPA repository interfaces.
+2020-05-09 13:43:35,955 [WARN] org.springframework.boot.actuate.endpoint.EndpointId [restartedMain] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-05-09 13:43:36,158 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=cffe2d36-9e6d-3212-8c53-f84c3ab50ec8
+2020-05-09 13:43:36,779 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:43:36,783 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:43:36,788 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-09 13:43:37,480 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2020-05-09 13:43:37,491 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-05-09 13:43:37,492 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-09 13:43:37,668 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-05-09 13:43:37,668 [INFO] org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3796 ms
+2020-05-09 13:43:37,990 [WARN] com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-05-09 13:43:37,991 [INFO] com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-09 13:43:38,000 [INFO] com.netflix.config.DynamicPropertyFactory [restartedMain] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@13b9a46e
+2020-05-09 13:43:38,159 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-05-09 13:43:38,464 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-05-09 13:43:38,478 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-09 13:43:39,583 [INFO] org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar [restartedMain] Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-05-09 13:43:39,787 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-09 13:43:39,971 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-09 13:43:40,342 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-09 13:43:40,588 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-09 13:43:42,269 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-09 13:43:42,283 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-09 13:43:42,382 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-05-09 13:43:43,929 [WARN] com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-05-09 13:43:43,929 [INFO] com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-09 13:43:44,052 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-09 13:43:44,322 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-09 13:43:45,603 [WARN] org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-09 13:43:45,651 [WARN] org.springframework.cloud.client.loadbalancer.reactive.ReactorLoadBalancerClientAutoConfiguration$ReactorLoadBalancerClientRibbonWarnLogger [restartedMain] You have RibbonLoadBalancerClient on your classpath. LoadBalancerExchangeFilterFunction that uses it under the hood will be used by default. Spring Cloud Ribbon is now in maintenance mode, so we suggest switching to ReactorLoadBalancerExchangeFilterFunction instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-09 13:43:45,823 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-05-09 13:43:45,996 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-05-09 13:43:46,054 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-05-09 13:43:46,317 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-05-09 13:43:46,317 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-05-09 13:43:46,551 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-05-09 13:43:46,552 [INFO] com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-05-09 13:43:46,772 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-05-09 13:43:46,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2020-05-09 13:43:46,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-05-09 13:43:46,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-05-09 13:43:46,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2020-05-09 13:43:46,794 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-05-09 13:43:46,794 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2020-05-09 13:43:46,794 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-05-09 13:43:46,998 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2020-05-09 13:43:47,000 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-05-09 13:43:47,010 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-09 13:43:47,014 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1589012027013 with initial instances count: 0
+2020-05-09 13:43:47,028 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ACCOUNT with eureka with status UP
+2020-05-09 13:43:47,029 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1589012027029, current=UP, previous=STARTING]
+2020-05-09 13:43:47,031 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001: registering service...
+2020-05-09 13:43:47,129 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path ''
+2020-05-09 13:43:47,131 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8001
+2020-05-09 13:43:47,143 [INFO] com.example.account.AccountApplication [restartedMain] Started AccountApplication in 14.216 seconds (JVM running for 20.578)
+2020-05-09 13:43:47,153 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - registration status: 204
+2020-05-09 13:43:55,064 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8001-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-09 13:43:55,065 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8001-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-05-09 13:43:55,108 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8001-exec-1] Completed initialization in 43 ms
+2020-05-09 13:44:17,004 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-05-09 13:44:17,004 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-05-09 13:44:17,004 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-05-09 13:44:17,004 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-05-09 13:44:17,005 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-05-09 13:44:17,005 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-05-09 13:44:17,005 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-05-09 13:44:17,044 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-05-09 13:45:38,793 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8001-exec-7] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-05-09 13:45:54,205 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8001-exec-9] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-09 14:03:36,676 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m28s81ms).
+2020-05-09 14:04:44,878 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-05-09 14:08:41,313 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application ACCOUNT with eureka with status DOWN
+2020-05-09 14:08:41,314 [WARN] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1589013521314, current=DOWN, previous=UP]
+2020-05-09 14:08:41,314 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001: registering service...
+2020-05-09 14:08:41,326 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - registration status: 204
+2020-05-09 14:08:41,377 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-09 14:08:41,398 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-09 14:08:41,531 [ERROR] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 connection adder] HikariPool-1 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.isOpen(Session.java:1303) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:719) ~[HikariCP-3.4.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:705) ~[HikariCP-3.4.2.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+2020-05-09 14:08:41,616 [WARN] org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-05-09 14:08:41,618 [INFO] com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-05-09 14:08:41,786 [INFO] com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-05-09 14:08:41,790 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2020-05-09 14:08:44,796 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2020-05-09 14:08:44,806 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_ACCOUNT/192.168.31.241:Account:8001 - deregister  status: 200
+2020-05-09 14:08:44,821 [INFO] com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
