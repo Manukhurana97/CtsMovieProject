@@ -1,0 +1,18 @@
+server:
+    port: 8888
+spring:
+    application:
+        name: Config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/Manukhurana97/CtsMovieProject.git
+
+
+
+eureka:
+    client:
+        service-url:
+            default-zone: http://localhost:8761/eureka/
+        fetchRegistry: true
