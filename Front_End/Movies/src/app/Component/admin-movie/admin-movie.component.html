@@ -1,0 +1,190 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h1>Admin Panal</h1>
+
+<!--  Pop up-->
+<button class="btn" (click)="add_form()"><i class="fa fa-plus" aria-hidden="true">Add New Song</i></button>
+
+<div class="modal fade" id="myModal" role="dialog" [ngClass]="{'show':showModel}"></div>
+
+<div [ngClass]="{'show':showModel}" class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New Movie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="showModel=false">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <form (ngSubmit)="onRegister()">
+        <div class="modal-body">
+          <div class="form-group">
+            <div class="custom-file mb-3">
+              <input type="file" class="custom-file-input" id="Cover" name="Cover" placeholder=" Image" accept="image/*" name="Cover"
+                     (change)="onSelectFile($event.target.files)">
+              <label class="custom-file-label" for="Cover">Choose file</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required [(ngModel)]="addmovie.name">
+          </div>
+          <div class="form-group">
+            <label for="director" class="col-form-label">Director:</label>
+            <input type="text" class="form-control" id="director" name="director" required
+                   [(ngModel)]="addmovie.director">
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <div class="form-group">
+                <label for="rating" class="col-form-label">Rating:</label>
+                <input type="text" class="form-control" id="rating" name="rating" required
+                       [(ngModel)]="addmovie.rating">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="language" class="col-form-label">Language:</label>
+                <input type="text" class="form-control" id="language" name="language" required
+                       [(ngModel)]="addmovie.language">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="Price" class="col-form-label">Price:</label>
+                <input type="text" class="form-control" id="price" name="price" required [(ngModel)]="addmovie.price">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="col-form-label">Description:</label>
+            <textarea class="form-control" id="description" name="description" required
+                      [(ngModel)]="addmovie.description"></textarea>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="showModel=false">Close</button>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th></th>
+      <th scope="col">Name</th>
+      <th scope="col">description</th>
+      <th scope="col">director</th>
+      <th scope="col">rating</th>
+      <th scope="col">Language</th>
+      <th scope="col">Price</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of movies">
+      <td>{{data.id}}</td>
+      <td>{{data.name}}</td>
+      <td>{{data.description}}</td>
+      <td>{{data.director}}</td>
+      <td>{{data.rating}}</td>
+      <td>{{data.language}}</td>
+      <td>{{data.price | currency}}</td>
+      <td>
+        <button type="submit" class="btn btn-primary" (click)="onUpdategetdata(data.name, data.movieid)">Edit</button>
+      </td>
+      <td>
+        <button class="btn btn-danger" (click)="onDelete(data.movieid)">Delete</button>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+</div>
+
+
+<!--update form -->
+<div class="modal fade" id="myModal" role="dialog" [ngClass]="{'show':showModel1}"></div>
+
+<div [ngClass]="{'show':showModel1}" class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add New Movie</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="showModel1=false">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <form (ngSubmit)="updatedata()">
+        <div class="modal-body" *ngFor="let data of movie">
+          <div class="form-group">
+            <div class="custom-file mb-3">
+              <input type="file" class="custom-file-input" id="Cover" name="Cover" placeholder=" Image" accept="image/*" name="Cover"
+                     (change)="onSelectFile($event.target.files)">
+              <label class="custom-file-label" for="Cover">Choose file</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required [(ngModel)]="data.name">
+          </div>
+          <div class="form-group">
+            <label for="director" class="col-form-label">Director:</label>
+            <input type="text" class="form-control" id="director" name="director" required
+                   [(ngModel)]="data.director">
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <div class="form-group">
+                <label for="rating" class="col-form-label">Rating:</label>
+                <input type="text" class="form-control" id="rating" name="rating" required
+                       [(ngModel)]="data.rating">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="language" class="col-form-label">Language:</label>
+                <input type="text" class="form-control" id="language" name="language" required
+                       [(ngModel)]="data.language">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="Price" class="col-form-label">Price:</label>
+                <input type="text" class="form-control" id="price" name="price" required [(ngModel)]="data.price">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="description" class="col-form-label">Description:</label>
+            <textarea class="form-control" id="description" name="description" required
+                      [(ngModel)]="data.description"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="showModel1=false">Close</button>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
