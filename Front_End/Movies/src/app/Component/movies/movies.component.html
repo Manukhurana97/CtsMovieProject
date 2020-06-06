@@ -1,0 +1,19 @@
+<div style="padding: 10px; margin: 0px 0px 0px 90px;">
+  <div class="row">
+    <div class="card" style="width: 16rem; margin: 15px;" *ngFor="let data of movie">
+      <button (click)="getNameandid(data.name, data.movieid)">
+        <div style="height: 280px;"><br>
+          <img class="card-img-top" [routerLink]="['/']" src="" alt="Card image cap" width="50" height="250">
+
+        </div>
+        <div class="card-body">
+          <h2 style="text-align: center;" class="card-title">{{data.name}}
+            <br><small> {{data.price | currency: 'INR'}}</small></h2>
+        </div>
+      </button>
+      <button (click)="addtocart(data.movieid)" class="btn"><i class="fa fa-plus" aria-hidden="true">Add to Cart</i>
+      </button>
+
+    </div>
+  </div>
+</div>
