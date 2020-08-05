@@ -15,5 +15,5 @@
     c)Hystrix: Circuit Breaker
     d)Cache: Ehcache
     e)Swagger: Documentation
-    f)Service Communication: WebClient 
+    f)Service Communication: WebClient Builder, Feign client
   
