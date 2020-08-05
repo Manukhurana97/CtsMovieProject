@@ -11,7 +11,7 @@
 			
   
     a)Eureka Server
-    b)Zull: Routing
+    b)Zuul: Routing
     c)Hystrix: Circuit Breaker
     d)Cache: Ehcache
     e)Swagger: Documentation
