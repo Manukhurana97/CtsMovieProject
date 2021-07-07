@@ -7,9 +7,27 @@ server:
 spring:
     application:
         name: Zuul
+
+
 zuul:
     ignored-services: '*'
     routes:
         Movies:
             path: /Movies/**
             service-id: Movies
+        Account:
+            path: /Account/**
+            service-id: Account
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 60000
+
+logging:
+    level:
+        ROOT: INFO
+        org.springframework.web: DEBUG
